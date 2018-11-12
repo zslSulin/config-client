@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      enabled: true
+      label: master
+      uri: http://localhost:1101/
+      name: appliaction
+      profile: test
